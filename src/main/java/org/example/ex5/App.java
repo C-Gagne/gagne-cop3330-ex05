@@ -1,3 +1,8 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 1 Solutions
+ *  Copyright 2021 Crystal Gagne
+ */
+
 package org.example.ex5;
 
 public class App {
@@ -6,20 +11,18 @@ public class App {
         Numbers second = new Numbers();
 
         System.out.println("Enter the first number:");
-        Integer x = first.getNumber();
+        Double x = first.getNumber();
 
         System.out.println("Enter the second number:");
-        Integer y = second.getNumber();
+        Double y = second.getNumber();
 
-        Integer sum = x + y;
-        Integer difference = x -y;
-        Integer product = x*y;
-        Integer quotient = x/y;
+        Double sum = x + y;
+        Double difference = x -y;
+        Double product = x*y;
+        Double quotient = x/y;
 
-        System.out.println(x + " + " + y + " = " + sum);
-        System.out.println(x + " - " + y + " = " + difference);
-        System.out.println(x + " * " + y + " = " + product);
-        System.out.println(x + " / " + y + " = " + quotient);
+        System.out.println(x + " + " + y + " = " + sum + "\n " + x + " - " + y + " = " + difference + "\n " + x + " * " + y + " = " + product + "\n " + x + " / " + y + " = " + quotient);
+
 
     }
 }
